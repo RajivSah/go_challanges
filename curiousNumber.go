@@ -24,9 +24,8 @@ func main() {
 }
 
 func isCurious(num int64) bool {
-	pow := int64(math.Pow(float64(num), 2.0))
 	numLength := len(strconv.FormatInt(num, 10))
-	if (pow-num)%int64(math.Pow(10.0, float64(numLength))) == 0 {
+	if (num*num)%int64(math.Pow10(numLength)) == num {
 		return true
 	}
 	return false
