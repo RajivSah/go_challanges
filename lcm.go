@@ -21,7 +21,7 @@ func main() {
 	}
 	result := 1
 	for k, v := range res {
-		result *= k * v
+		result *= int(math.Pow(float64(k), float64(v)))
 	}
 	fmt.Println(result)
 }
