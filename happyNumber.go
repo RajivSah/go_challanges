@@ -1,3 +1,4 @@
+// go run happyNumber.go number
 package main
 
 import (

@@ -1,3 +1,4 @@
+//go run curiousNumber.go
 package main
 
 import (

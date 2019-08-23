@@ -1,3 +1,4 @@
+// go run lcm.go num1 num2 num3 num4 .....
 package main
 
 import (

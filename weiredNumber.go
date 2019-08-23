@@ -1,3 +1,4 @@
+//  go run weiredNumber.go start_num end_num
 package main
 
 import (

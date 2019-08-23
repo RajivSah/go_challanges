@@ -1,3 +1,4 @@
+// go run pythagoreanTriplet.go
 package main
 
 import (
